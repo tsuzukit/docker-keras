@@ -1,0 +1,15 @@
+version: "2"
+
+services:
+
+  keras-container:
+    image: keras-container
+    container_name: keras-container
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    volumes:
+      - .:/usr/repo
+    environment:
+      TZ: Asia/Tokyo
+
