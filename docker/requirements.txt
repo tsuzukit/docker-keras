@@ -5,7 +5,7 @@ PyYAML==3.12
 numpy==1.13.3
 chardet==2.3.0
 colorama==0.3.2
-html5lib==0.999
+html5lib==0.99999999
 peewee==2.10.1
 py==1.4.33
 pytest==3.0.7
